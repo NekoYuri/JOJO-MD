@@ -320,28 +320,28 @@ if (chats.startsWith("@6288213292687")){
 			case prefix+'menu':
 			case prefix+'help':
 			    var teks = allmenu(sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount)
-			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsDefault, footer: '© Jojo - Bot', mentions: [sender] })
+			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: buttonsDefault, footer: '©Kyouka', mentions: [sender] })
 				break
 case prefix+'donasiah':
-  reply(`Jika Ingin Donasi Harap Hubungi Owner\n\nhttps://wa.me/6281319944917`)
+  reply(`Jika Ingin Donasi Harap Hubungi Owner\n\nhttps://wa.me/6282112080081`)
   break
 case prefix+'donasi':
   var donasibut = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0813-1994-4917` } },
-			{ urlButton: { displayText: `𝙂𝙧𝙪𝙥 𝙅𝙤𝙟𝙤`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `0821-1208-0081` } },
+			{ urlButton: { displayText: `KyoukaGC`, url : `https://chat.whatsapp.com/HOp6MPKt3LElqHh2JJmql3` } },
 			{ quickReplyButton: { displayText: `Aku Ingin Donasi`, id: `${prefix}donasiah` } },
 		]
 var teks = `  │
   ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
+  ├─ ❏ 
   ├─ ❏ OVO
-  ├─ ❏ 088213292687
+  ├─ ❏ 
   ├─ ❏ PULSA
-  ├─ ❏ 081319944917
+  ├─ ❏ 
   ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
+  ├─ ❏ 
   ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/sofunsyabi.jpg
+  └─ ❏ https://www.instagram.com/ruka.nime7
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`
@@ -349,7 +349,7 @@ var teks = `  │
 			    break
 case prefix+'sewa':
   case prefix+'daftarprem':
-  var teks = `*[ LIST HARGA JOJO PREM ]*
+  var teks = `*[ LIST HARGA NEKO PREM ]*
 
 _Yakin kamu mau daftar ke premium?_
 
@@ -361,16 +361,16 @@ _Yakin kamu mau daftar ke premium?_
 - Transfer Limit Game
 
 *LIST DAFTAR PREMIUM*
-- Rp.10.000 - Perbulan
-- Rp.25.000 - Dua Bulan
-- Rp.50.000 - Lima Bulan`
+- Rp. - Perbulan
+- Rp. - Dua Bulan
+- Rp. - Lima Bulan`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync(setting.pathimg) }, templateButtons: button5, footer: '© Jojo - Bot', mentions: [sender] })
 			    break
 			case prefix+'runtime':
 			    reply(runtime(process.uptime()))
 			    break
-case prefix+'groupjojo':
-  reply("Group 1\n\nhttps://chat.whatsapp.com/Chvc5ptPYDgJcxJxp5zbIc\nGroup 2\n\nhttps://chat.whatsapp.com/DqM488U5RvmGpsbTMfDbMv\nCobain Bot Telegram Jojo yuk!\nhttps://t.me/docsjojo_bot?start=help")
+case 'fanspage':
+  reply("Group 1\n\nhttps://chat.whatsapp.com/HOp6MPKt3LElqHh2JJmql3\nGroup 2\n\n")
   break
 			case prefix+'speed':
 			    let timestamp = speed();
@@ -382,15 +382,15 @@ case prefix+'groupjojo':
 			    reply(`◪ DONASI
   │
   ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
+  ├─ ❏ 
   ├─ ❏ OVO
-  ├─ ❏ 088213292687
+  ├─ ❏ 
   ├─ ❏ PULSA
-  ├─ ❏ 081319944917
+  ├─ ❏ 
   ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
+  ├─ ❏ 
   ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/sofunsyabi.id
+  └─ ❏ https://www.instagram.com/ruka.nime7
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`)
